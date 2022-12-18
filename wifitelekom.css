@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-size: 14px;
+    background-image: linear-gradient(rgb(78, 78, 184), rgb(112, 214, 138));
+    background-size: cover;
+
+
+}
+
+
+
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(230, 227, 227, 0.938);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(9, 19, 8, 0.884);
+    border-radius: 10px;
+
+}
+
+.box p {
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 100%;
+    padding: 8px;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+
+}
+
+.box .inputBox label {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: gray;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox input:focus~label .box .inputBox input:valid~label {
+    top: -18px;
+    left: 0;
+    color: #000;
+    font-size: 12px;
+
+
+}
+
+.box input[type='submit'] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgba(48, 192, 29, 0.897);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.deneme {
+
+    position: absolute;
+    top: 9px;
+    left: -12px;
+    transform: translateY(-50%);
+    color: grey;
+    
+    
+
+
+
+}
+
+.deneme2{
+    position: relative;
+    margin: 0;
+   
+
+    
+}
+
+
+.soru{
+    color: grey;
+}
+
+
+a:hover{
+    color: red;
+}
