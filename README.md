@@ -1,2 +1,2 @@
 # login-screen design
-Built with HTML5 and CSS3.
+Built with HTML and CSS.
